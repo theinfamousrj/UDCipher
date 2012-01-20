@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81E3DA2914C8FA92002A16F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E3DA2814C8FA92002A16F1 /* Cocoa.framework */; };
+		81E3DA3314C8FA92002A16F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E3DA3114C8FA92002A16F1 /* InfoPlist.strings */; };
+		81E3DA3514C8FA92002A16F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3DA3414C8FA92002A16F1 /* main.m */; };
+		81E3DA3914C8FA92002A16F1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 81E3DA3714C8FA92002A16F1 /* Credits.rtf */; };
+		81E3DA3C14C8FA92002A16F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3DA3B14C8FA92002A16F1 /* AppDelegate.m */; };
+		81E3DA3F14C8FA92002A16F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E3DA3D14C8FA92002A16F1 /* MainMenu.xib */; };
+		81E3DA4714C8FA93002A16F1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E3DA4614C8FA93002A16F1 /* SenTestingKit.framework */; };
+		81E3DA4814C8FA93002A16F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E3DA2814C8FA92002A16F1 /* Cocoa.framework */; };
+		81E3DA5014C8FA93002A16F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E3DA4E14C8FA93002A16F1 /* InfoPlist.strings */; };
+		81E3DA5314C8FA93002A16F1 /* UDCipherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3DA5214C8FA93002A16F1 /* UDCipherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81E3DA4914C8FA93002A16F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E3DA1B14C8FA92002A16F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E3DA2314C8FA92002A16F1;
+			remoteInfo = UDCipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81E3DA2414C8FA92002A16F1 /* UDCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E3DA2814C8FA92002A16F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		81E3DA2B14C8FA92002A16F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		81E3DA2C14C8FA92002A16F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		81E3DA2D14C8FA92002A16F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81E3DA3014C8FA92002A16F1 /* UDCipher-Info.plist */ = {isa = PBXFileReference; path = "UDCipher-Info.plist"; sourceTree = "<group>"; };
+		81E3DA3214C8FA92002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81E3DA3414C8FA92002A16F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81E3DA3614C8FA92002A16F1 /* UDCipher-Prefix.pch */ = {isa = PBXFileReference; path = "UDCipher-Prefix.pch"; sourceTree = "<group>"; };
+		81E3DA3814C8FA92002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		81E3DA3A14C8FA92002A16F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		81E3DA3B14C8FA92002A16F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81E3DA3E14C8FA92002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		81E3DA4514C8FA93002A16F1 /* UDCipherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDCipherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E3DA4614C8FA93002A16F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		81E3DA4D14C8FA93002A16F1 /* UDCipherTests-Info.plist */ = {isa = PBXFileReference; path = "UDCipherTests-Info.plist"; sourceTree = "<group>"; };
+		81E3DA4F14C8FA93002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81E3DA5114C8FA93002A16F1 /* UDCipherTests.h */ = {isa = PBXFileReference; path = UDCipherTests.h; sourceTree = "<group>"; };
+		81E3DA5214C8FA93002A16F1 /* UDCipherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDCipherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E3DA2114C8FA92002A16F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3DA2914C8FA92002A16F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E3DA4114C8FA93002A16F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3DA4714C8FA93002A16F1 /* SenTestingKit.framework in Frameworks */,
+				81E3DA4814C8FA93002A16F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E3DA1914C8FA92002A16F1 = {
+			isa = PBXGroup;
+			children = (
+				81E3DA2E14C8FA92002A16F1 /* UDCipher */,
+				81E3DA4B14C8FA93002A16F1 /* UDCipherTests */,
+				81E3DA2714C8FA92002A16F1 /* Frameworks */,
+				81E3DA2514C8FA92002A16F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81E3DA2514C8FA92002A16F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA2414C8FA92002A16F1 /* UDCipher.app */,
+				81E3DA4514C8FA93002A16F1 /* UDCipherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E3DA2714C8FA92002A16F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA2814C8FA92002A16F1 /* Cocoa.framework */,
+				81E3DA4614C8FA93002A16F1 /* SenTestingKit.framework */,
+				81E3DA2A14C8FA92002A16F1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81E3DA2A14C8FA92002A16F1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA2B14C8FA92002A16F1 /* AppKit.framework */,
+				81E3DA2C14C8FA92002A16F1 /* CoreData.framework */,
+				81E3DA2D14C8FA92002A16F1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		81E3DA2E14C8FA92002A16F1 /* UDCipher */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA3A14C8FA92002A16F1 /* AppDelegate.h */,
+				81E3DA3B14C8FA92002A16F1 /* AppDelegate.m */,
+				81E3DA3D14C8FA92002A16F1 /* MainMenu.xib */,
+				81E3DA2F14C8FA92002A16F1 /* Supporting Files */,
+			);
+			path = UDCipher;
+			sourceTree = "<group>";
+		};
+		81E3DA2F14C8FA92002A16F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA3014C8FA92002A16F1 /* UDCipher-Info.plist */,
+				81E3DA3114C8FA92002A16F1 /* InfoPlist.strings */,
+				81E3DA3414C8FA92002A16F1 /* main.m */,
+				81E3DA3614C8FA92002A16F1 /* UDCipher-Prefix.pch */,
+				81E3DA3714C8FA92002A16F1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81E3DA4B14C8FA93002A16F1 /* UDCipherTests */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA5114C8FA93002A16F1 /* UDCipherTests.h */,
+				81E3DA5214C8FA93002A16F1 /* UDCipherTests.m */,
+				81E3DA4C14C8FA93002A16F1 /* Supporting Files */,
+			);
+			path = UDCipherTests;
+			sourceTree = "<group>";
+		};
+		81E3DA4C14C8FA93002A16F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E3DA4D14C8FA93002A16F1 /* UDCipherTests-Info.plist */,
+				81E3DA4E14C8FA93002A16F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E3DA2314C8FA92002A16F1 /* UDCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E3DA5614C8FA93002A16F1 /* Build configuration list for PBXNativeTarget "UDCipher" */;
+			buildPhases = (
+				81E3DA2014C8FA92002A16F1 /* Sources */,
+				81E3DA2114C8FA92002A16F1 /* Frameworks */,
+				81E3DA2214C8FA92002A16F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDCipher;
+			productName = UDCipher;
+			productReference = 81E3DA2414C8FA92002A16F1 /* UDCipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81E3DA4414C8FA93002A16F1 /* UDCipherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E3DA5914C8FA93002A16F1 /* Build configuration list for PBXNativeTarget "UDCipherTests" */;
+			buildPhases = (
+				81E3DA4014C8FA93002A16F1 /* Sources */,
+				81E3DA4114C8FA93002A16F1 /* Frameworks */,
+				81E3DA4214C8FA93002A16F1 /* Resources */,
+				81E3DA4314C8FA93002A16F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E3DA4A14C8FA93002A16F1 /* PBXTargetDependency */,
+			);
+			name = UDCipherTests;
+			productName = UDCipherTests;
+			productReference = 81E3DA4514C8FA93002A16F1 /* UDCipherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E3DA1B14C8FA92002A16F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 81E3DA1E14C8FA92002A16F1 /* Build configuration list for PBXProject "UDCipher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81E3DA1914C8FA92002A16F1;
+			productRefGroup = 81E3DA2514C8FA92002A16F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E3DA2314C8FA92002A16F1 /* UDCipher */,
+				81E3DA4414C8FA93002A16F1 /* UDCipherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81E3DA2214C8FA92002A16F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3DA3314C8FA92002A16F1 /* InfoPlist.strings in Resources */,
+				81E3DA3914C8FA92002A16F1 /* Credits.rtf in Resources */,
+				81E3DA3F14C8FA92002A16F1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E3DA4214C8FA93002A16F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3DA5014C8FA93002A16F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81E3DA4314C8FA93002A16F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E3DA2014C8FA92002A16F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3DA3514C8FA92002A16F1 /* main.m in Sources */,
+				81E3DA3C14C8FA92002A16F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E3DA4014C8FA93002A16F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3DA5314C8FA93002A16F1 /* UDCipherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81E3DA4A14C8FA93002A16F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E3DA2314C8FA92002A16F1 /* UDCipher */;
+			targetProxy = 81E3DA4914C8FA93002A16F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81E3DA3114C8FA92002A16F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E3DA3214C8FA92002A16F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81E3DA3714C8FA92002A16F1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E3DA3814C8FA92002A16F1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		81E3DA3D14C8FA92002A16F1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E3DA3E14C8FA92002A16F1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		81E3DA4E14C8FA93002A16F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E3DA4F14C8FA93002A16F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81E3DA5414C8FA93002A16F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81E3DA5514C8FA93002A16F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81E3DA5714C8FA93002A16F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDCipher/UDCipher-Prefix.pch";
+				INFOPLIST_FILE = "UDCipher/UDCipher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81E3DA5814C8FA93002A16F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDCipher/UDCipher-Prefix.pch";
+				INFOPLIST_FILE = "UDCipher/UDCipher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81E3DA5A14C8FA93002A16F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UDCipher.app/Contents/MacOS/UDCipher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDCipher/UDCipher-Prefix.pch";
+				INFOPLIST_FILE = "UDCipherTests/UDCipherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		81E3DA5B14C8FA93002A16F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UDCipher.app/Contents/MacOS/UDCipher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDCipher/UDCipher-Prefix.pch";
+				INFOPLIST_FILE = "UDCipherTests/UDCipherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E3DA1E14C8FA92002A16F1 /* Build configuration list for PBXProject "UDCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E3DA5414C8FA93002A16F1 /* Debug */,
+				81E3DA5514C8FA93002A16F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E3DA5614C8FA93002A16F1 /* Build configuration list for PBXNativeTarget "UDCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E3DA5714C8FA93002A16F1 /* Debug */,
+				81E3DA5814C8FA93002A16F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81E3DA5914C8FA93002A16F1 /* Build configuration list for PBXNativeTarget "UDCipherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E3DA5A14C8FA93002A16F1 /* Debug */,
+				81E3DA5B14C8FA93002A16F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E3DA1B14C8FA92002A16F1 /* Project object */;
+}
