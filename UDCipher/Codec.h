@@ -6,8 +6,17 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 @interface Codec : NSObject
+
+@property (assign) NSString *userName;
+@property (assign) NSString *initDate;
+@property (assign) NSString *dataPlain;
+@property (assign) NSString *dataCipher;
+
+-(void)initAll:(NSString*)uName date:(NSString*)iDate;
+-(NSString*)encodeData: (NSString*)data;
+-(NSString*)decodeData: (NSString*)data;
 
 @end

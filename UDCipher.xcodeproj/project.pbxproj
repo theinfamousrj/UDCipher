@@ -17,6 +17,7 @@
 		81E3DA4814C8FA93002A16F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E3DA2814C8FA92002A16F1 /* Cocoa.framework */; };
 		81E3DA5014C8FA93002A16F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E3DA4E14C8FA93002A16F1 /* InfoPlist.strings */; };
 		81E3DA5314C8FA93002A16F1 /* UDCipherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3DA5214C8FA93002A16F1 /* UDCipherTests.m */; };
+		81E3DA6A14C9032A002A16F1 /* Codec.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3DA6914C9032A002A16F1 /* Codec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,22 @@
 		81E3DA2B14C8FA92002A16F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		81E3DA2C14C8FA92002A16F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		81E3DA2D14C8FA92002A16F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		81E3DA3014C8FA92002A16F1 /* UDCipher-Info.plist */ = {isa = PBXFileReference; path = "UDCipher-Info.plist"; sourceTree = "<group>"; };
+		81E3DA3014C8FA92002A16F1 /* UDCipher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UDCipher-Info.plist"; sourceTree = "<group>"; };
 		81E3DA3214C8FA92002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81E3DA3414C8FA92002A16F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81E3DA3614C8FA92002A16F1 /* UDCipher-Prefix.pch */ = {isa = PBXFileReference; path = "UDCipher-Prefix.pch"; sourceTree = "<group>"; };
+		81E3DA3614C8FA92002A16F1 /* UDCipher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UDCipher-Prefix.pch"; sourceTree = "<group>"; };
 		81E3DA3814C8FA92002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		81E3DA3A14C8FA92002A16F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		81E3DA3A14C8FA92002A16F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81E3DA3B14C8FA92002A16F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		81E3DA3E14C8FA92002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		81E3DA4514C8FA93002A16F1 /* UDCipherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDCipherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E3DA4614C8FA93002A16F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		81E3DA4D14C8FA93002A16F1 /* UDCipherTests-Info.plist */ = {isa = PBXFileReference; path = "UDCipherTests-Info.plist"; sourceTree = "<group>"; };
+		81E3DA4D14C8FA93002A16F1 /* UDCipherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UDCipherTests-Info.plist"; sourceTree = "<group>"; };
 		81E3DA4F14C8FA93002A16F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		81E3DA5114C8FA93002A16F1 /* UDCipherTests.h */ = {isa = PBXFileReference; path = UDCipherTests.h; sourceTree = "<group>"; };
+		81E3DA5114C8FA93002A16F1 /* UDCipherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDCipherTests.h; sourceTree = "<group>"; };
 		81E3DA5214C8FA93002A16F1 /* UDCipherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDCipherTests.m; sourceTree = "<group>"; };
+		81E3DA6814C9032A002A16F1 /* Codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Codec.h; sourceTree = "<group>"; };
+		81E3DA6914C9032A002A16F1 /* Codec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Codec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				81E3DA3A14C8FA92002A16F1 /* AppDelegate.h */,
 				81E3DA3B14C8FA92002A16F1 /* AppDelegate.m */,
+				81E3DA6814C9032A002A16F1 /* Codec.h */,
+				81E3DA6914C9032A002A16F1 /* Codec.m */,
 				81E3DA3D14C8FA92002A16F1 /* MainMenu.xib */,
 				81E3DA2F14C8FA92002A16F1 /* Supporting Files */,
 			);
@@ -262,6 +267,7 @@
 			files = (
 				81E3DA3514C8FA92002A16F1 /* main.m in Sources */,
 				81E3DA3C14C8FA92002A16F1 /* AppDelegate.m in Sources */,
+				81E3DA6A14C9032A002A16F1 /* Codec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
