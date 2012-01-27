@@ -35,14 +35,14 @@ Codec *myCodec;
 {
     [self pushData];
     dataCipher.stringValue = [myCodec encodeData:dataPlain.stringValue];
-    NSLog(@"data encrypted.");
+    //NSLog(@"data encrypted.");
 }
 
 - (IBAction)decryptData:(id)sender
 {
     [self pushData];
     dataPlain.stringValue = [myCodec decodeData:dataCipher.stringValue];
-    NSLog(@"data decrypted.");
+    //NSLog(@"data decrypted.");
 }
 
 @end

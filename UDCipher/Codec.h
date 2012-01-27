@@ -18,5 +18,8 @@
 -(void)initAll:(NSString*)uName date:(NSString*)iDate;
 -(NSString*)encodeData: (NSString*)data;
 -(NSString*)decodeData: (NSString*)data;
+-(NSString*)rot13Codec: (NSString*)data;
+-(NSString*)numToChar: (NSString*)data;
+-(NSString*)charToNum: (NSString*)data;
 
 @end
