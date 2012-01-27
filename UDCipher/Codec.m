@@ -15,11 +15,14 @@
 @synthesize dataPlain = _dataPlain;
 @synthesize dataCipher = _dataCipher;
 
-
+// Codec init
 - (id)init {
     return self;
 }
 
+// encodeData method
+// parameters: takes in plain data
+// returns: encoded data
 - (NSString*)encodeData:(NSString*)data {
     
     //NSLog(@"data encoded: %@", data);
