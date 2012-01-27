@@ -13,10 +13,10 @@
 
 @synthesize window = _window;
 
-@synthesize userName;
-@synthesize initDate;
-@synthesize dataPlain;
-@synthesize dataCipher;
+@synthesize userName = _userName;
+@synthesize initDate = _initDate;
+@synthesize dataPlain = _dataPlain;
+@synthesize dataCipher = _dataCipher;
 
 Codec *myCodec;
 
@@ -28,20 +28,21 @@ Codec *myCodec;
 
 - (void)pushData
 {
-    [myCodec initAll:userName.stringValue date:initDate.stringValue];
+    [myCodec setUserName:_userName.stringValue];
+    [myCodec setInitDate:_initDate.stringValue];
 }
 
 - (IBAction)encryptData:(id)sender
 {
     [self pushData];
-    dataCipher.stringValue = [myCodec encodeData:dataPlain.stringValue];
+    _dataCipher.stringValue = [myCodec encodeData:_dataPlain.stringValue];
     //NSLog(@"data encrypted.");
 }
 
 - (IBAction)decryptData:(id)sender
 {
     [self pushData];
-    dataPlain.stringValue = [myCodec decodeData:dataCipher.stringValue];
+    _dataPlain.stringValue = [myCodec decodeData:_dataCipher.stringValue];
     //NSLog(@"data decrypted.");
 }
 

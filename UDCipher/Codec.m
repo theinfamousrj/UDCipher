@@ -10,36 +10,29 @@
 
 @implementation Codec
 
-@synthesize userName;
-@synthesize initDate;
-@synthesize dataPlain;
-@synthesize dataCipher;
+@synthesize userName = _userName;
+@synthesize initDate = _initDate;
+@synthesize dataPlain = _dataPlain;
+@synthesize dataCipher = _dataCipher;
 
 
 - (id)init {
     return self;
 }
 
-- (void)initAll:(NSString*)uName date:(NSString*)iDate {
-    self.userName = uName;
-    //NSLog(@"userName: %@", self.userName);
-    self.initDate = iDate;
-    //NSLog(@"initDate: %@", self.initDate);
-}
-
-- (NSString*)encodeData: (NSString*)data {
+- (NSString*)encodeData:(NSString*)data {
     
     //NSLog(@"data encoded: %@", data);
     return data;
 }
 
-- (NSString*)decodeData: (NSString*)data {
+- (NSString*)decodeData:(NSString*)data {
     
     //NSLog(@"data decoded: %@", data);
     return data;
 }
 
-- (NSString*)rot13Codec: (NSString*)data {
+- (NSString*)rot13Codec:(NSString*)data {
     const char *_string = [data cStringUsingEncoding:NSASCIIStringEncoding];
 	int stringLength = [data length];
 	char newString[stringLength+1];
@@ -68,7 +61,7 @@
 	return rot13String;
 }
 
-- (NSString*)numToChar: (NSString*)data {
+- (NSString*)numToChar:(NSString*)data {
     const char *_string = [data cStringUsingEncoding:NSASCIIStringEncoding];
 	int stringLength = [data length];
 	char newString[stringLength+1];
@@ -94,7 +87,7 @@
 	return numToCharString;
 }
 
-- (NSString*)charToNum: (NSString*)data {
+- (NSString*)charToNum:(NSString*)data {
     const char *_string = [data cStringUsingEncoding:NSASCIIStringEncoding];
 	int stringLength = [data length];
 	char newString[stringLength+1];
